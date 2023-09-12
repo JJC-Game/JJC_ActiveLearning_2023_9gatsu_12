@@ -67,6 +67,7 @@ class AppUserController extends Controller
         $app_user = AppUser::find($id);
         return view('app_user', ['app_user' => $app_user]);
     }
+
     public function play_chara_gacha($id)
     {
         $app_user = AppUser::find($id);
@@ -82,6 +83,5 @@ class AppUserController extends Controller
 
         return view('play_chara_gacha', ['result_string' => $result_string]);
     }
-
 
 }
