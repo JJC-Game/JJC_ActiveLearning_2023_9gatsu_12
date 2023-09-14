@@ -13,7 +13,7 @@ public class PHPConnectManager : MonoBehaviour
     private bool isConnecting = false;
     protected int calledUserId = 0;
 
-    public const string ID_SAVE_KEY = "AL_2023_9GATSU_USER_ID";
+    public const string ID_SAVE_KEY = "AL_2023_9GATSU_USER_12";
 
     protected void CallPHPConnection(string phpFileName, UnityAction callbackFunc = null)
     {
